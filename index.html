@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+  <style>
+    .jquery-ripples {
+      position: relative;
+      z-index: 0;
+    }
+  </style>
+
+
+
+  <meta charset="utf-8">
+  <title>WT Project</title>
+
+  <!--Favicon -->
+  <link rel="icon" href="images/icon.png">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="toggleStyle.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="downcard.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- JS -->
+  <script src="ripple.js" type="text/javascript">
+
+  </script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js">
+
+  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Cormorant+Garamond:wght@300;600&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+  <!--fontawesome- -->
+  <script src="https://kit.fontawesome.com/6b13f382a6.js" crossorigin="anonymous"></script>
+
+
+  <!-- javascript -->
+  <script src="contact.js"></script>
+
+</head>
+
+
+<!-- Body Start -->
+
+<body style="background-color:#eaeaea">
+
+
+  <!-- Header start -->
+
+  <section id="header">
+
+    <div class="container-header">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg  ">
+        <img class="icon-image" src="images/icon.png" alt="icon">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="text-align:right" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link"  href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Nav Bar End -->
+
+      <!-- Toggle -->
+      <div class="toggle-jhamela">
+
+
+      <input type="checkbox" id="toggle" class="toggle--checkbox">
+    <label for="toggle" class="toggle--label">
+      <span class="toggle--label-background"></span>
+    </label>
+    <div class="background"></div>
+
+    </div>
+      <!-- Title -->
+
+      <section id="title">
+
+        <h3 class='hello'> Hi, we are team 12, our topic is</h3>
+        <div class="title-container">
+          <p class="transition"><span>Abstract Classes and Interfaces.</span></p>
+          <br><br><br>
+
+        </div>
+
+      </section>
+
+      <!-- Title end -->
+    </div>
+    <!-- container header end -->
+
+    <script>
+      $(".container-header").ripples({
+        resolution: 300,
+        dropRadius: 30,
+        perturbance: 0.1,
+        interactive: true,
+      });
+    </script>
+
+  </section>
+  <!-- Header end -->
+  <br><br>
+  <img class="arrow1" src="images/arrow6.gif" alt="">
+  <br><br>
+
+
+  <div class="blank-box">
+
+  </div>
+  <!-- Content Cards -->
+
+
+  <div class="row" style="border-radius: 0;">
+    <div class=" col-lg-6 huehue ">
+      <div class="card left-box top-box box1" style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px;">
+        <div class="image">
+          <img class="myimg" src="images/abt site.png">
+        </div>
+        <div class="details">
+          <div class="center">
+            <h1><span  style="font-size:1.3vw;">Description</span></h1>
+          <p>The site is a brief explation of abstract class and interface in Java.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-lg-6 huehue">
+      <div class="card right-box top-box box2" style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px;">
+        <div class="image">
+          <img class="myimg" src="images/device responsive.png" />
+        </div>
+        <div class="details">
+          <div class="center">
+            <h1><span  style="font-size:1.3vw;">Site functionalities</span></h1>
+            <p>The home page is device responsive and transitions and animations have been added to make the site atractive.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-lg-6 huehue">
+      <div class="card left-box bottom-box box3" style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px;">
+        <div class="image">
+          <img class="myimg" src="images/web dev.jpg" />
+        </div>
+        <div class="details">
+          <div class="center">
+            <h1><span  style="font-size:1.3vw;">Site Technical</span></h1>
+             <p>The site is made using HTML5, CSS3, javascript and bootstrap classes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" col-lg-6 huehue">
+      <div class="card right-box bottom-box box4" style="border-top-width: 0px;border-left-width: 0px;border-bottom-width: 0px;border-right-width: 0px;">
+        <div class="image">
+          <img src="images/kids-learning-code.png" />
+        </div>
+        <div class="details">
+          <div class="center">
+            <h1><span  style="font-size:1.3vw;">Acknowledgement</span></h1>
+            <p>We thank Nalini Ma'am and Chandani Ma'am, for teaching us the fundamentals of web development and java.  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Cards End -->
+
+
+  <!-- <div class="container-dc">
+      <img class="dc" src="images/html5.png" alt="">
+      <img class="dc"  src="images/css3.jpg" alt="">
+      <img  class="dc" src="images/jst3.jpg" alt="">
+    </div> -->
+
+
+
+
+  <!-- <img class="arrow2" src="images/arrow6.gif" alt="">
+
+
+  <div class="box3d1">
+  </div>
+  <div class="box3d2">
+  </div>
+
+
+  <div class="info">
+
+  </div> -->
+
+
+<!--
+  <main class="grid">
+	<section class="content item1">
+		<h1>Hover Card Animation</h1>
+		<p>By animating a few CSS paint & composite properties, we can create fun interactions on hover & focus</p>
+	</section>
+	<section class="card item2">
+		<h2>Hover the cards<h2>
+	</section>
+	<section class="card item3"></section>
+	<section class="card item4"></section>
+	<section class="card item5">
+			<h2>because interactions make it more fun<h2>
+	</section>
+	<section class="card item7"></section>
+	<section class="card item8">
+			<h2>animating the shadow on the pseudo element makes it pop out<h2>
+	</section>
+	<section class="card item9"></section>
+	<section class="card item10"></section>
+	<section class="card item11">
+		<h2>add a :focus state too!<h2>
+	</section>
+</main> -->
+
+<h1 class="dc--heading">Site Technical</h1>
+
+    <section class="section-plans" id="section-plans">
+      <!-- <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Hosting Plans
+        </h2>
+      </div> -->
+
+      <div class="flip-card fc1">
+  <div class="flip-card-inner">
+    <div class="flip-card-front fcf1">
+      <h2>01</h2>
+      <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+    </div>
+    <div class="flip-card-back fcb1">
+      <h1>HTML 5</h1>
+      <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. We have used html5 to build out website.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-card fc2">
+<div class="flip-card-inner">
+<div class="flip-card-front fcf2">
+  <h2>02</h2>
+<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+</div>
+<div class="flip-card-back fcb2">
+<h1>CSS 3</h1>
+<p>CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.
+We have used the latest version of css, CSS3 to design out website.</p>
+</div>
+</div>
+</div>
+
+
+<div class="flip-card fc3">
+<div class="flip-card-inner">
+<div class="flip-card-front fcf3">
+  <h2>03</h2>
+<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+</div>
+<div class="flip-card-back fcb3">
+<h1>Javascript</h1>
+<p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. We have used it to provide some interactive features in our website.</p>
+</div>
+</div>
+</div>
+
+
+<div class="flip-card fc4">
+<div class="flip-card-inner">
+<div class="flip-card-front fcf4">
+  <h2>04</h2>
+<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+</div>
+<div class="flip-card-back fcb4">
+<h1>J-Query</h1>
+<p>jQuery is a JavaScript library that helps to simplify and standardize interactions between JavaScript code and HTML elements. We have used jQuery to provide hover effects in the site.</p>
+</div>
+</div>
+</div>
+
+
+  <!-- Footer -->
+
+
+  <div class="footer">
+
+    <!-- contact -->
+
+    <div class="container">
+
+      <div class="cont-chat">
+        <img class="mes" src="images/giphy.gif" alt="">
+        <!-- <img class="arrowhue" src="images/huee.gif" alt=""> -->
+        <div class="contact">
+
+          <br>
+          <p class="git"><b>Get in Touch</b></p><br>
+
+          <p class="chat">So that we can have a chat over coffee!!!</p>
+        </div>
+        <br>
+
+        <a class="btn-lekha BUTTON_NOC f-btn" href="contact.html">CONTACT US</a>
+        <br><br>
+
+      </div>
+
+      <!-- quick links -->
+
+      <div class="quick-links">
+        <h5 class="ql-h5">Quick Links</h5>
+        <div class="ql-contents">
+          <h6><a href="#header">Home</a></h6>
+          <h6><a href="project.html">Project</a></h6>
+          <h6><a href="team.html">Team</a></h6>
+        </div>
+
+      </div>
+
+      <!-- <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/IqgySmxEgP0rs40ZMB" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
+      <!-- <iframe src="https://giphy.com/embed/IqgySmxEgP0rs40ZMB" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p> -->
+    </div>
+
+  </div>
+
+  <!-- Footer end -->
+
+
+  <section class="downbar">
+
+    <a style="color :white" class="team">©Team12</a>
+
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+
+  </section>
+  <!-- Downbar end -->
+
+  <script src="toggle.js"></script>
+
+</body>
+<!-- Body End -->
+
+</html>

@@ -1,0 +1,7 @@
+
+#f8ebe1 soft yellow
+#feb69f  light orange
+#fec9b9 lighter orange
+#feffd6
+#fdffbc
+#750550

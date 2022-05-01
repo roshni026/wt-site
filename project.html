@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Project</title>
+
+  <!--Favicon -->
+  <link rel="icon" href="images/icon.png">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="p-card.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Cormorant+Garamond:wght@300;600&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+
+  <!--fontawesome- -->
+  <script src="https://kit.fontawesome.com/6b13f382a6.js" crossorigin="anonymous"></script>
+
+
+  <!-- javascript -->
+  <script src="contact.js"></script>
+
+</head>
+
+<body style="background-color:#FFE2E2">
+
+  <!-- Nav Bar -->
+
+  <section id="header">
+    <div class="container-header">
+
+
+      <nav class="navbar navbar-expand-lg ">
+        <img class="icon-image" src="images/icon.png" alt="icon">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="text-align:right" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    </div>
+  </section>
+
+
+
+  <!-- abstraction -->
+  <div class="abstraction">
+    <div class="abs">
+
+      <h3>Data Abstraction</h3>
+      <br>
+      <p>Data abstraction is the process of hiding certain details and showing only essential information to the user. Abstraction lets us focus on what the object does instead of how it does it.</p>
+      <p>There are two ways of abstraction in java.</p>
+    </div>
+    <div class="container-crd card1">
+      <div class=card>
+        <div class="abs-title">
+          <!-- <img href = "#" src ="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg"> -->
+          <h1>1.</h1>
+          <h4>Abstract class</h4>
+        </div>
+        <div class=content>
+          <p>An abstract class is a restricted class that is declared abstract and cannot be instantiated, but they can be subclassed. </p>
+          <p>Abstract class provides partial abstraction.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-crd card2">
+      <div class=card>
+        <div class="abs-title">
+          <!-- <img href = "#" src ="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg"> -->
+          <h1>2.</h1>
+          <h4>Interface</h4>
+        </div>
+        <div class=content>
+          <p>An Interface is a type of class that contains abstract methods and final fields (members) by default.</p>
+          <p>Interface provided absolute abstraction.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="abstract-class">
+
+    <div class="ac">
+      <img class="rope1" src="images/rope.png" alt="">
+      <img class="rope2" src="images/rope.png" alt="">
+
+    <img class="one" src="codes/abstract class.jpeg" alt="">
+    <img class="one-o" src="output/one.jpeg" alt="">
+    </div>
+    <h1>Abstract Class</h1>
+    <ul>
+      <li>When a class contains a pure virtual function, it is called an abstract class.</li>
+            <li>An abstract class can have both non-abstract and abstract methods.</li>
+              <li>It is a restricted class.</li>
+            <li>It cannot be instantiated.</li>
+            <li>It can be subclassed.</li>
+            <li>It needs to be extended and its method needs to be implemented.</li>
+            <li>It provides partial abstraction</li>
+            <li>It is declared with the keyword abstract.</li>
+
+
+    <a class="test" href="https://www.jdoodle.com/iembed/v0/q6Q">Test it yourself!</a>
+
+    </ul>
+
+  </div>
+
+
+  <section class="interface">
+
+
+    <div class="inter">
+      <h1>Interface</h1>
+      <div class="if">
+
+      <img class="rope1" src="images/rope.png" alt="">
+      <img class="rope2" src="images/rope.png" alt="">
+      <img class="two" src="codes/interface.jpeg" alt="">
+      <img class="two-o" src="output/two.jpeg" alt="">
+</div>
+
+      <ul>
+        <li>By default, the method of interface are public and abstract.</li>
+        <li>By default, the members of interface are public/static and final type</li>
+        <li>Interface only creates reference objects.</li>
+        <li>All the methods in this should be declared in implemented classes.</li>
+        <li>An interface in Java is a blueprint of a class. It has static constants and abstract methods.</li>
+        <li>Interfaces can have abstract methods and variables. It cannot have a method body.</li>
+      <a class="test" href="https://www.jdoodle.com/embed/v0/4KdN">Test it yourself!</a>
+      </ul>
+    <h2>Types of Interfaces</h2>
+    </div>
+
+  </section>
+
+
+
+  <div class="container">
+
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <h2>Top Level Interfaces</h2>
+        <p>It is an interface that is not nested in any class or interface. It comprises a collection of abstract methods. It can contain any number of methods that are needed to be defined in the class.</p>
+
+      </div>
+    </div>
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <h2>Nested Interface</h2>
+        <p>It is an interface that is defined in the body of a class or interface. In nested interfaces one or more interfaces are grouped, so that it becomes easy to maintain. It is referred to by the outer interface or class and cannot be accessed
+          directly.</p>
+
+      </div>
+    </div>
+    <div class="box">
+      <span></span>
+      <div class="content">
+        <h2>Generic Interface</h2>
+        <p> Like a class, an interface is generic if it declares one or more types of variables . It comprises methods that accept or return an object. Thus, we can pass any parameter to the method that is not of the primitive type.</p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- types of inheritance -->
+  <div class="inherit">
+    <h1 class="toi">Types of Inheritance</h1>
+    <h4 class="mi">Multiple inheritance is not supported through class in java, but it is possible by an interface.Why?</h4>
+    <p >Multiple inheritance is not supported in the case of class because of ambiguity. However, it is supported in case of an interface because there is no ambiguity. It is because its implementation is provided by the
+      implementation of class.</p>
+
+      <img class="three" src="codes/three.png" alt="">
+      <img class="three-o" src="output/three.png" alt="">
+      <a class="test" href="https://www.jdoodle.com/iembed/v0/qjm">Test it yourself!</a>
+
+  </div>
+
+  <div class="type-in1">
+
+    <div class="ic   ">
+
+
+
+      <img class="icard" src="images/IC.png" alt="">
+
+      <p>If a program has an interface(I) and a class(C), then the interface can be implemented by the class.</p>
+    </div>
+
+    <div class="iic  ">
+      <img class="icard" src="images/IIC.png" alt="">
+      <p> An interface can be extended from another interface but it cannot be implemented from it. Since a class is having real time existence but an interface is not, atleast
+        one class is required which will implement the concept of the 2 interfaces. </p>
+    </div>
+  </div>
+
+  <div class="type-in2">
+    <div class="iicic  ">
+      <img class="icard" src="images/IICIC.png" alt="">
+      <p>If a program contains 2 interfaces, both a class and an interface can be created from it. But in case of an interface (III) a class is required down to it.</p>
+    </div>
+
+    <div class="ccc  ">
+      <img class="icard" src="images/CCC.png" alt="">
+      <p> In java a class cannot be created from 2 classes since it does not allow multiple inheritance. </p>
+    </div>
+  </div>
+
+<h1 class="method">Methods in Interfaces</h1>
+<div class="methods">
+
+  <p>A class that implements an interface must define all the abstract methods of the interface. If at a later stage it is required to introduce another abstract method to the interface, then all the classes implementing the interface must be modified. </p>
+<p>The enhancement in Java 8 spares the programmer from doing any change in the existing classes that implement the interface by allowing the interface to have full definition of default methods and static methods that are implicitly inherited by the class implementing the interface. </p>
+
+</div>
+
+
+<div class="dns">
+  <figure class="snip1563">
+  <img src="codes/four.png" alt="https://www.jdoodle.com/iembed/v0/ql7" />
+  <figcaption>
+    <h3>Default Methods</h3>
+    <br><br>
+    <p>Default interface methods allow us to add new methods to an interface that are automatically available in the implementations.</p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+</div>
+
+<div class="snd">
+  <figure class="snip1563">
+  <img src="codes/five.png" alt="https://www.jdoodle.com/iembed/v0/ql9" />
+  <figcaption>
+    <h3>  Static Methods</h3>
+    <br><br>
+    <p>A static method is a class method which can be called with the class name. A class that implements an interface also inherits all its static methods. </p>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+</div>
+<img class="pic" src="output/four.png" alt="">
+<img class="pic" src="output/five.png" alt="">
+<a class="test4 test" href="https://www.jdoodle.com/iembed/v0/ql7">Test it yourself!</a>
+<a class="test5 test" href="https://www.jdoodle.com/iembed/v0/ql9">Test it yourself!</a>
+<h1 class="vs">Abstract Class vs Interfaces</h1>
+<div class="tableai">
+
+<table>
+
+<tr>
+  <th>Abstract Class</th>
+  <th>Interfaces</th>
+</tr>
+<tr>
+  <td>Abstract class can have abstract and non-abstract methods.</td>
+  <td>Interface can have only abstract methods. </td>
+</tr>
+<tr>
+  <td>Abstract class doesn't support multiple inheritance.</td>
+  <td>Interface supports multiple inheritance.</td>
+</tr>
+<tr>
+  <td>Abstract class can have final, non-final, static and non-static variables.</td>
+  <td>Interface has only static and final variables.</td>
+</tr>
+<tr>
+  <td>Abstract class can provide the implementation of interface.</td>
+  <td>Interface can't provide the implementation of abstract class.</td>
+</tr>
+<tr>
+  <td>The abstract keyword is used to declare abstract class.</td>
+  <td>The interface keyword is used to declare interface.</td>
+</tr>
+<tr>
+  <td>An abstract class can extend another Java class and implement multiple Java interfaces.</td>
+  <td>An interface can extend another Java interface only.</td>
+</tr>
+<tr>
+  <td> An abstract class can be extended using keyword "extends".</td>
+  <td>An interface can be implemented using keyword "implements".</td>
+</tr>
+<tr>
+  <td> A Java abstract class can have class members like private, protected, etc.</td>
+  <td>Members of a Java interface are public by default.</td>
+</tr>
+
+
+
+
+
+</table>
+
+
+
+
+
+</div>
+
+
+
+  <!-- Footer -->
+
+
+  <div class="footer">
+<img class="wave" src="wave/finalwave.png" alt="">
+    <!-- contact -->
+
+    <div class="container">
+
+      <div class="cont-chat">
+<img class="mes" src="images/giphy.gif" alt="">
+        <!-- <img class="arrowhue" src="images/huee.gif" alt=""> -->
+        <div class="contact">
+
+          <br>
+          <p class="git"><b>Get in Touch</b></p><br>
+
+          <p class="chat">So that we can have a chat over coffee!!!</p>
+        </div>
+          <br>
+
+          <a class="btn-lekha BUTTON_NOC f-btn" href="contact.html">CONTACT US</a>
+          <br><br>
+
+      </div>
+
+      <!-- quick links -->
+
+      <div class="quick-links">
+        <h5 class="ql-h5">Quick Links</h5>
+        <div class="ql-contents">
+        <h6><a style="color:black" href="index.html">Home</a></h6>
+        <h6><a style="color:black" href="#header">Project</a></h6>
+        <h6><a style="color:black" href="team.html">Team</a></h6>
+        </div>
+
+      </div>
+
+      <!-- <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/IqgySmxEgP0rs40ZMB" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
+      <!-- <iframe src="https://giphy.com/embed/IqgySmxEgP0rs40ZMB" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p> -->
+    </div>
+
+  </div>
+
+  <!-- Footer end -->
+
+
+  <section class="downbar">
+
+    <a style="color :white" class="team">©Team12</a>
+
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-facebook"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+
+  </section>
+  <!-- Downbar end -->
+
+
+
+
+
+
+
+</body>
+
+</html>
